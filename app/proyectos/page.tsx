@@ -6,33 +6,33 @@ interface Proyecto {
   descripcion: string
   tecnologias: string[]
   enlace: string
-  icono: string
+  imagenUrl: string
 }
 
 const proyectos: Proyecto[] = [
   {
     titulo: "APDC - Brinda Ayuda a Personas con Alzheimer",
     descripcion:
-      "APDC es una web la cual mediante el uso de diferentes juegos brindamos ayuda a personas las cuales sufren de Alzheimer. Algunos de los juegos que utilizamos son, el memotест, el simon y entre otros más.",
+      "APDC es una web la cual mediante el uso de diferentes juegos brindamos ayuda a personas las cuales sufren de Alzheimer. Algunos de los juegos que utilizamos son, el memotest, el simon y entre otros más.",
     tecnologias: ["JS", "Access", "HTML", "CSS"],
-    enlace: "#",
-    icono: "🧠",
+    enlace: "https://github.com/48592475/Tagy-games.git",
+    imagenUrl: "/img/cerebro.png",
   },
   {
     titulo: "PIA - IA de Predicción de Cancer de Pancreas",
     descripcion:
       "PIA es una plataforma web la cual logra predecir el cancer de pancreas con el uso de distintos modelos, tanto de imágenes como de datos de sangre, con el fin de ayudar al médico a dar una respuesta eficaz y lograr un tratamiento temprano.",
     tecnologias: ["JS", "Next.js", "HTML", "CSS", "Python"],
-    enlace: "#",
-    icono: "🏥",
+    enlace: "https://github.com/48592475/PIA.git",
+    imagenUrl: "/img/personas.png",
   },
   {
     titulo: "Tagy Games - IA que Brinda Ayuda a niños con TEA",
     descripcion:
       "Tagy Games es una web la cual utiliza inteligencia Artificial para brindar ayuda a niños con TEA mediante el uso situaciones cotidianas, con el fin de que cuando salgan a la calle sea menos el sufrimiento para las discisiones",
     tecnologias: ["Next.js", "React", "HTML", "Testing", "Python"],
-    enlace: "#",
-    icono: "🎮",
+    enlace: "https://github.com/48592475/Tagy-games.git",
+    imagenUrl: "/img/algo.png",
   },
 ]
 
@@ -60,11 +60,11 @@ export default function Proyectos() {
               <div className="flex flex-col md:flex-row gap-6 items-start">
                 <div className="w-32 h-32 flex-shrink-0">
                   <Image
-                    src={`/.jpg?height=128&width=128&query=${proyecto.icono}`}
+                    src={proyecto.imagenUrl}
                     alt={proyecto.titulo}
                     width={128}
                     height={128}
-                    className="w-full h-full object-cover rounded-lg"
+                    className="w-full h-full object-fill rounded-lg" 
                   />
                 </div>
 

@@ -29,12 +29,12 @@ export default function Inicio() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="#proyectos">
+            <Link href="http://localhost:3000/proyectos">
               <button className="px-8 py-3 bg-emerald-400 text-black font-bold rounded-full hover:bg-emerald-300 transition-colors duration-300 flex items-center gap-2 w-full sm:w-auto justify-center">
                 Ver mis proyectos <span>↓</span>
               </button>
             </Link>
-            <Link href="#contacto">
+            <Link href="http://localhost:3000/contacto">
               <button className="px-8 py-3 border-2 border-gray-400 text-white font-bold rounded-full hover:border-emerald-400 hover:text-emerald-400 transition-colors duration-300 w-full sm:w-auto">
                 Contactar
               </button>

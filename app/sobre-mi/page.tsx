@@ -48,7 +48,7 @@ export default function SobreMi() {
           <div className="animate-fade-in">
             <div className="w-64 h-64 mx-auto md:mx-0 mb-8 rounded-3xl overflow-hidden border-2 border-emerald-400/30">
               <Image
-                src="/desarrollador-backend-profesional-joven.jpg"
+                src="/img/tobi.png"
                 alt="Tobias Sendyk"
                 width={256}
                 height={256}
@@ -69,11 +69,7 @@ export default function SobreMi() {
                 servicios externos. Cada proyecto es una oportunidad para mejorar mis habilidades y aprender nuevas
                 tecnologías.
               </p>
-              <p>
-                Además, tengo conocimientos en testing, buenas prácticas y seguridad web, asegurando que cada sistema
-                cumpla con altos estándares de calidad. Mi objetivo es seguir creciendo como desarrollador backend y
-                aportar soluciones que realmente generen valor.
-              </p>
+              
             </div>
           </div>
 

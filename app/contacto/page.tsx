@@ -13,7 +13,7 @@ const contactos: ContactoItem[] = [
     tipo: "email",
     etiqueta: "Email",
     valor: "sendyktobias@gmail.com",
-    enlace: "mailto:sendyktobias@gmail.com",
+    enlace: "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox",
     icono: "✉️",
   },
   {

@@ -50,7 +50,7 @@ export function Navegacion() {
                 : "text-gray-400 hover:text-white"
             }`}
           >
-            Poryectos
+            Proyectos
           </Link>
           <Link
             href="/contacto"
